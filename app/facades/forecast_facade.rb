@@ -4,6 +4,7 @@ class ForecastFacade
 
     current = CurrentForecast.new(all_weather[:current])
     daily = get_daily_weather(all_weather[:daily])
+    hourly = get_hourly_weather(all_weather[:daily])
   end
 
   def self.get_daily_weather(weather)
@@ -11,5 +12,11 @@ class ForecastFacade
       DailyForecast.new(daily_weather)
     end
   end
-  
+
+  def self.get_hourly_weather(weather)
+    weather[0..7].map do |hourly_weather|
+      HourlyForecast.new(hourly_weather)
+    end
+  end
+
 end

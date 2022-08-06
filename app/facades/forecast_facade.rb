@@ -5,6 +5,7 @@ class ForecastFacade
     current = CurrentForecast.new(all_weather[:current])
     daily = get_daily_weather(all_weather[:daily])
     hourly = get_hourly_weather(all_weather[:daily])
+    [current, daily, hourly]
   end
 
   def self.get_daily_weather(weather)

@@ -8,6 +8,6 @@ class HourlyForecast
     @time = data[:dt]
     @temperature = data[:temp]
     @conditions = data[:weather][0][:description]
-    @icon = data[:weather][0][:description]
+    @icon = data[:weather][0][:icon]
   end
 end

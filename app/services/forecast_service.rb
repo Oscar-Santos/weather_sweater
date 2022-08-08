@@ -5,6 +5,7 @@ class ForecastService
     response_1 = mapquest_connection.get(end_point) do |faraday|
     faraday.params['key'] = ENV['mapquest_api_key']
     faraday.params['location'] = location
+    require "pry"; binding.pry
   end
     coordinates = JSON.parse(response_1.body, symbolize_names: true)
 

@@ -1,7 +1,7 @@
 class MunchiesService
   def self.get_destination_details(location, food, destination)
     end_point = '/v3/businesses/search'
-    response = yelp.connection.get(end_point) do |faraday|
+    response = yelp_connection.get(end_point) do |faraday|
       faraday.headers['Authorization'] = "Bearer #{ENV['yelp_api_key']}"
       faraday.params["location"] = destination
       faraday.params["term"] = food

@@ -42,7 +42,7 @@ RSpec.describe ForecastService do
     expect(forecast[:current][:visibility]).to be_a(Integer)
 
     expect(forecast[:current]).to have_key(:wind_speed)
-    expect(forecast[:current][:wind_speed]).to be_a(Float)
+    expect(forecast[:current][:wind_speed]).to be_a(Numeric)
 
     expect(forecast[:current]).to have_key(:wind_deg)
     expect(forecast[:current][:wind_deg]).to be_a(Integer)

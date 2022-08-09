@@ -1,4 +1,4 @@
-class ForecastService
+class ForecastService < BaseService
 
   def self.get_city_weather(location)
     end_point = '/geocoding/v1/address'
@@ -24,13 +24,4 @@ class ForecastService
     JSON.parse(response_2.body, symbolize_names: true)
   end
 
-
-  def self.openweather_connection
-    Faraday.new('https://api.openweathermap.org')
-  end
-
-
-  def self.mapquest_connection
-    Faraday.new('http://www.mapquestapi.com')
-  end
 end

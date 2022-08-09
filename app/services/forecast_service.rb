@@ -24,4 +24,13 @@ class ForecastService < BaseService
     JSON.parse(response_2.body, symbolize_names: true)
   end
 
+  def self.get_roadtrip_details(origin, destination)
+    response = mapquest_connection.get('/directions/v2/route') do |faraday|
+     faraday.params['key'] = ENV['mapquest_api_key']
+     faraday.params['from'] = origin
+     faraday.params['to'] = destination
+   end
+   JSON.parse(response.body, symbolize_names: true)
+  end
+
 end

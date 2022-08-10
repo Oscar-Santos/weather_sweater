@@ -1,4 +1,4 @@
-class ForecastService
+class ForecastService < BaseService
 
   def self.get_city_weather(location)
     end_point = '/geocoding/v1/address'
@@ -24,13 +24,13 @@ class ForecastService
     JSON.parse(response_2.body, symbolize_names: true)
   end
 
-
-  def self.openweather_connection
-    Faraday.new('https://api.openweathermap.org')
+  def self.find_roadtrip_details(origin, destination)
+    response = mapquest_connection.get('/directions/v2/route') do |faraday|
+     faraday.params['key'] = ENV['mapquest_api_key']
+     faraday.params['from'] = origin
+     faraday.params['to'] = destination
+   end
+   JSON.parse(response.body, symbolize_names: true)
   end
 
-
-  def self.mapquest_connection
-    Faraday.new('http://www.mapquestapi.com')
-  end
 end

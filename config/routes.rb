@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
       resources :munchies, only: :index
       post '/users', to: 'users#create'
+
+      post '/sessions', to: 'sessions#create'
+
+      post 'road_trip', to: 'road_trip#create'
     end
   end
 end

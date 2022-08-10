@@ -1,3 +1,4 @@
+require 'rails_helper'
 
 RSpec.describe ForecastService do
   it 'returns current weather', :vcr do
@@ -47,9 +48,6 @@ RSpec.describe ForecastService do
     expect(forecast[:current]).to have_key(:wind_deg)
     expect(forecast[:current][:wind_deg]).to be_a(Integer)
 
-    # expect(forecast[:current]).to have_key(:wind_gust)
-    # expect(forecast[:current][:wind_gust]).to be_a(Float)
-
     expect(forecast[:current]).to have_key(:weather)
     expect(forecast[:current][:weather]).to be_a(Array)
 
@@ -58,9 +56,6 @@ RSpec.describe ForecastService do
 
     expect(forecast[:current][:weather].first).to have_key(:icon)
     expect(forecast[:current][:weather].first[:icon]).to be_a(String)
-
-    # expect(forecast[:current]).to have_key(:minutely)
-    # expect(forecast[:current][:minutely]).to be_a(Array)
 
   end
 
@@ -119,6 +114,23 @@ RSpec.describe ForecastService do
 
     expect(forecast_3[:current][:weather].first).to have_key(:icon)
     expect(forecast_3[:current][:weather].first[:icon]).to be_a(String)
+  end
 
+  it 'finds road trip details', :vcr do
+    trip_details = ForecastService.find_roadtrip_details('denver,co', 'pueblo,co')
+
+    expect(trip_details).to be_a(Hash)
+
+    expect(trip_details).to have_key(:route)
+    expect(trip_details).to be_a(Hash)
+
+    expect(trip_details[:route]).to have_key(:formattedTime)
+    expect(trip_details[:route][:formattedTime]).to be_a(String)
+
+    expect(trip_details[:route]).to have_key(:sessionId)
+    expect(trip_details[:route][:sessionId]).to be_a(String)
+
+    expect(trip_details[:route]).to have_key(:distance)
+    expect(trip_details[:route][:distance]).to be_a(Float)
   end
 end

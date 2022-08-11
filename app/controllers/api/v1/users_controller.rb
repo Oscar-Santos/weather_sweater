@@ -10,11 +10,11 @@ class Api::V1::UsersController < ApplicationController
     elsif user.save
       render json: Api::V1::UsersSerializer.hashed(user), status: 201
     end
+
   end
 
-
-
   private
+
   def user_params
     params.permit(:email, :password, :password_confirmation)
   end

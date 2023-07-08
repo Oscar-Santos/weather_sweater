@@ -1,5 +1,5 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-# WEATHER SWEATHER
+# WEATHER SWEATER
 
 ## Overview 🟢
 
@@ -100,12 +100,13 @@ Sign up for an API key from each provider and add this in application.yml
 <p>
   <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
   </br>
-  <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white"/>
+  </br>
   <img src="https://img.shields.io/badge/VCR-YourCustomText-<COLOR>?logo=VCR&logoColor=white" />
   </br>
   <img src="https://img.shields.io/badge/CRUD-Supported-<COLOR>?logo=data:image/png;base64,iVBORw0KG..." />
   </br>
-  </br>
+
 </p>
 
 ## Endpoints provided:🟢

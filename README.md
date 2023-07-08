@@ -16,6 +16,18 @@ With this Back-end App, I am using the Model-View-Controller (MVC) principles an
 <br>
 So, get ready to hit the open road with Weather Sweater by your side. Let us take the stress out of trip planning and ensure you have the best weather conditions throughout your journey. Trust us to provide you with accurate, reliable, and timely weather information.
 
+### Application Landing Page
+![Screen Shot 2023-07-08 at 4 54 27 AM](https://github.com/Oscar-Santos/weather_sweather/assets/83252572/76730250-1234-4e83-bf78-1f07380921df)
+
+### User Registration
+![Screen Shot 2023-07-08 at 4 56 17 AM](https://github.com/Oscar-Santos/weather_sweather/assets/83252572/b8cc4c4f-5922-497d-a812-334548a88f0b)
+
+### Login
+![Screen Shot 2023-07-08 at 4 57 06 AM](https://github.com/Oscar-Santos/weather_sweather/assets/83252572/0604ebea-37d4-4263-bd3b-0ade8f6efd86)
+
+
+
+
 ## To set up this app locally, please follow these steps:
 ### Language and Framework needed:
 - Ruby Version 2.7.2
@@ -73,7 +85,32 @@ Visit
 
 Sign up for an API key from each provider and add this in application.yml
 
+## Framework🟣
+<p>
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+</p>
 
+## Languages🟣
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
+  </br>
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  </br>
+  <img src="https://img.shields.io/badge/HTML-<VERSION>-<COLOR>?logo=html5" />
+  </br>
+</p>
+
+## Tools🟣
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Node.js-14.17.3-green?logo=node.js" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
+  </br>
+  <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
+  </br>
+</p>
 
 ## Endpoints provided:
 

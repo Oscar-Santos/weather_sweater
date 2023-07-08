@@ -1,7 +1,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # WEATHER SWEATHER
 
-## Overview:
+## Overview 🟢
 
 Welcome to Weather Sweater: Your Ultimate Road Trip App Planner!
 
@@ -28,7 +28,7 @@ So, get ready to hit the open road with Weather Sweater by your side. Let us tak
 
 
 
-## To set up this app locally, please follow these steps:
+## To set up this app locally, please follow these steps:🟢
 ### Language and Framework needed:
 - Ruby Version 2.7.2
 - Rails Version 5.2.6
@@ -85,12 +85,12 @@ Visit
 
 Sign up for an API key from each provider and add this in application.yml
 
-## Framework🟣
+## Framework🟢
 <p>
   <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
 </p>
 
-## Languages🟣
+## Languages🟢
 <p>
   <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
   </br>
@@ -100,7 +100,7 @@ Sign up for an API key from each provider and add this in application.yml
   </br>
 </p>
 
-## Tools🟣
+## Tools🟢
 <p>
   <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
   </br>
@@ -112,7 +112,7 @@ Sign up for an API key from each provider and add this in application.yml
   </br>
 </p>
 
-## Endpoints provided:
+## Endpoints provided:🟢
 
 
 #### Retrieve weather for a city:

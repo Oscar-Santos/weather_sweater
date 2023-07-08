@@ -85,22 +85,26 @@ Visit
 
 Sign up for an API key from each provider and add this in application.yml
 
-## Framework🟢
+## Framework:🟢
 <p>
   <img src="https://img.shields.io/badge/Ruby%20on%20Rails-v6.1.4-red" />
 </p>
 
-## Languages🟢
+## Languages:🟢
 <p>
   <img src="https://img.shields.io/badge/Ruby-2.7.4-red" />
   </br>
 </p>
 
-## Tools🟢
+## Tools:🟢
 <p>
   <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
   </br>
   <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VCR-YourCustomText-<COLOR>?logo=VCR&logoColor=white" />
+  </br>
+  <img src="https://img.shields.io/badge/CRUD-Supported-<COLOR>?logo=data:image/png;base64,iVBORw0KG..." />
+  </br>
   </br>
 </p>
 

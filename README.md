@@ -1,4 +1,4 @@
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # WEATHER SWEATHER
 
 ## Overview:
@@ -296,3 +296,4 @@ Request body:
     }
 }
 ```
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)

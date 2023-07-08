@@ -1,43 +1,29 @@
 
-# README
+# WEATHER SWEATHER
 
-# Weather Sweather
-  Weather Sweather is an app for the final project for Turing School's Mod 3. The app is built based on the following scenario: You are a back-end developer working on a team that is building an application to plan road trips. This app will allow users to see the current weather as well as the forecasted weather at the destination.
+## Overview:
 
+Welcome to Weather Sweater: Your Ultimate Road Trip App Planner!
 
-## Learning Goals
+Are you ready to embark on unforgettable road adventures, basking in the perfect weather conditions at every destination? Look no further than Weather Sweater.
+I have developed this back-end app that not only displays the current weather but also provides detailed forecasts at your desired destinations.
+Utilizing a service-oriented architecture, this application seamlessly integrates a front-end interface with our robust back-end system. As a back-end developer in this App, my role is exposing the API that satisfies the front-end team's requirements, ensuring smooth communication and delivering a seamless user experience.
+<br>
+To bring you the most accurate location data, I leverage the power of [Mapquest](https://developer.mapquest.com/documentation/)'s geocoding APIs. 
+But that's not all! We also harness the comprehensive weather data from [OpenWeather](https://openweathermap.org/api) APIs, allowing us to present real-time and forecasted weather conditions.
+<br>
+With this Back-end App, I am using the Model-View-Controller (MVC) principles and the fundamental principles of Create, Read, Update, and Delete (CRUD) operations.
+<br>
+So, get ready to hit the open road with Weather Sweater by your side. Let us take the stress out of trip planning and ensure you have the best weather conditions throughout your journey. Trust us to provide you with accurate, reliable, and timely weather information.
 
-- Expose an API that aggregates data from multiple external APIs
-
-- Expose an API that requires an authentication token
-
-- Expose an API for CRUD functionality
-
-- Determine completion criteria based on the needs of other developers
-
-- Research, select, and consume an API based on your needs as a developer
-
-## Requirements and Setup (for Mac):
-
-### Ruby and Rails
+## To set up this app locally, please follow these steps:
+### Language and Framework needed:
 - Ruby Version 2.7.2
 - Rails Version 5.2.6
 
-### Gems Utilized
-- RSpec
-- Pry
-- SimpleCov
-- Capybara
-- Shoulda-Matchers
-- Figaro
-- Webmock
-- VCR
-
-
-## Setup
+### Setup:
 1. Clone this repository:
 On your local machine open a terminal session and enter the following commands for SSH or HTTPS to clone the repositiory.
-
 
 - using ssh key <br>
 ```shell
@@ -80,7 +66,7 @@ Before using the web application you will need to setup your databases locally b
 ```shell
 $ rails db: {:drop, :create, :migrate, :seed}
 ```
-## API keys needed
+### API keys needed:
 Visit
 - https://developer.mapquest.com/documentation/geocoding-api/
 - https://openweathermap.org/api/one-call-api
@@ -89,7 +75,7 @@ Sign up for an API key from each provider and add this in application.yml
 
 
 
-## Endpoints provided
+## Endpoints provided:
 
 
 #### Retrieve weather for a city:

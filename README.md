@@ -90,7 +90,7 @@ Sign up for an API key from each provider and add this in application.yml
   <img src="https://img.shields.io/badge/Ruby%20on%20Rails-v6.1.4-red" />
 </p>
 
-## Languages:🟢
+## Language:🟢
 <p>
   <img src="https://img.shields.io/badge/Ruby-2.7.4-red" />
   </br>

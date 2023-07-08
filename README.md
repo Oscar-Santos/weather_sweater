@@ -87,25 +87,17 @@ Sign up for an API key from each provider and add this in application.yml
 
 ## Framework🟢
 <p>
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/Ruby%20on%20Rails-v6.1.4-red" />
 </p>
 
 ## Languages🟢
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
-  </br>
-  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
-  </br>
-  <img src="https://img.shields.io/badge/HTML-<VERSION>-<COLOR>?logo=html5" />
+  <img src="https://img.shields.io/badge/Ruby-2.7.4-red" />
   </br>
 </p>
 
 ## Tools🟢
 <p>
-  <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
-  </br>
-  <img src="https://img.shields.io/badge/Node.js-14.17.3-green?logo=node.js" /> 
-  </br>
   <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
   </br>
   <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
